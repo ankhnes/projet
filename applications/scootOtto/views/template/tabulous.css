@@ -34,15 +34,13 @@ table th {
 }
 
 ul.navTab{
-    display: -webkit-box;
-    display: -moz-box;
+
     display: box;
 	width: 100%;
 }
 
 ul.navTab li{
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
+
     box-flex: 1;
 }
 
