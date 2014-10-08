@@ -3,6 +3,11 @@ class Home extends CI_Controller{
 	
 	public function index()
 	{
-		$this->load->view('home/index');
+            $args = array(
+              'template' => array(
+                  'content' => 'home/index'
+              )  
+            );
+		$this->load->view('template',$args);
 	}
 }

@@ -1,52 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Starter Template for Bootstrap</title>
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <!-- Bootstrap core CSS -->
-    <link href="<?php echo base_url('bootstrap/css/bootstrap.min.css'); ?>" rel="stylesheet">
+  <title>TEST 1</title>
+  <meta name="description" content="An interactive getting started guide for Brackets.">
+  <link rel="stylesheet" href="<?php echo base_url('assets/style.css');?>">
+  <link rel="stylesheet" href="<?php echo base_url('assets/tabulous.css')?>">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href=
+  "http://fonts.googleapis.com/css?family=Jockey+One|Open+Sans:300,300italic,400,400italic,600,700|Open+Sans+Condensed:700|Cabin+Sketch:400,700"
+  rel="stylesheet">
+</head>
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Scoot Otto-Bruc</a>
+<body>
+  <div id="header">
+    <div class="headerBarreHaut">
+      <div class="headerConteneur">
+        <div class="logo">
+          <a href="#">Home</a>
         </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="<?php echo base_url();?>">Home</a></li>
-            <li><a href="<?php echo base_url('category/1');?>">50cc</a></li>
-            <li><a href="<?php echo base_url('category/2');?>">125cc</a></li>
-            <li><a href="<?php echo base_url('category/3');?>">>125cc</a></li>
-            <li><a href="<?php echo base_url('category/4');?>">Accessoires</a></li>
-            <li><a href="#contact">Contact</a></li>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="#">Scooters 50</a>
+            </li>
+
+            <li>
+              <a href="#">Scooters 125</a>
+            </li>
+
+            <li>
+              <a href="#">Scooters &gt;125</a>
+            </li>
+
+            <li>
+              <a href="#">Equipements</a>
+            </li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="headerSlider"></div>
+  </div>
+    <div id="partieCentrale">

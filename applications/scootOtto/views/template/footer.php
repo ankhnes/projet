@@ -1,12 +1,22 @@
-	</div><!-- /.container -->
 
+        </div>
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script> 
+        <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script> 
+        <script>
+            $(function() {
+              $( "#tabs, #tabs2" ).tabs();
+              });
+        </script> 
+        <script>
+            (function($) {  
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="<?php echo base_url('bootstrap/js/bootstrap.min.js');"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+               $('.lol').click(function() {         
+                   $('.fichetechnique').animate({ "left": "-450px" }); 
+                            $('.presentation').animate({ "left": "-450px" });          
+
+                   e.preventDefault();    
+               });  
+              })(jQuery);  
+        </script>
+    </body>
 </html>

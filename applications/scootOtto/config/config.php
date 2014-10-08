@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'localhost/projet/scootOtto';
+$config['base_url']	= 'http://localhost/projet/scootOtto';
 
 /*
 |--------------------------------------------------------------------------
