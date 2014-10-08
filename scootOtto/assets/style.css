@@ -19,6 +19,28 @@ margin:0;
 padding:0;
 }
 
+a:link {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+a:visited {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffe5b2;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+a:active {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
 .conteneur {
 width: 100%;
 height: 605px;
@@ -175,4 +197,83 @@ position: relative;
 
 .slide {
 width: 1500px;
+}
+
+#header  .logo {
+    background: url("./img/obLogo.png") no-repeat;
+    display: block;
+    height: 65px;
+    margin-left: 30px;
+    width: 284px;
+	background-position: center center;
+}
+
+#header .logo a {
+    display: block;
+    height: 65px;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+}   
+
+#header .headerBarreHaut {
+    background: none repeat scroll 0 0 #142032;
+    display: block;
+    height: 65px;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+
+#header .headerConteneur{
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+}
+
+
+
+#header .headerSlider {
+    background-image: url("./img/ksb.jpg");
+    overflow: hidden;
+    padding-top: 0;
+    position: relative;
+    z-index: 1;
+    height: 776px;
+    background-position: center top;
+    background-repeat: no-repeat;
+	width: 100%;
+}
+
+#header .headerConteneur .menu > ul {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    margin: 0;
+    list-style: none outside none;
+    padding: 0;
+}
+
+
+
+#header .headerConteneur .menu > ul > li {
+    display: block;
+    float: left;
+    height: 44px;
+    position: relative;
+}
+
+
+#header .headerConteneur .menu > ul > li  {
+    color: azure;
+    display: block;
+    font-family: "Open Sans Condensed";
+    font-size: 1em;
+    height: 65px;
+    line-height: 65px;
+    padding: 1px 20px 0;
+    text-align: center;
+    text-transform: uppercase;
 }
