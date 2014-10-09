@@ -21,7 +21,7 @@
     <div class="headerBarreHaut">
       <div class="headerConteneur">
         <div class="logo">
-          <a href="#">Home</a>
+          <a href="<?php echo base_url(); ?>">Home</a>
         </div>
 
         <div class="menu">

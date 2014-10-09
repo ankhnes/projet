@@ -5,7 +5,8 @@ class Home extends CI_Controller{
 	{
             $args = array(
               'template' => array(
-                  'content' => 'home/index'
+                  'content' => 'home/index',
+                  'title' => 'Otto-Bruc scooters'
               )  
             );
 		$this->load->view('template',$args);
