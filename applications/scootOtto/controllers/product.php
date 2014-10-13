@@ -1,5 +1,6 @@
 <?php
-class Product_controller extends CI_Controller{
+class Product extends CI_Controller
+{
 
     public function create()
     {
