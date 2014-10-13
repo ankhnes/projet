@@ -1,221 +1,166 @@
+
 * {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
     transition: all 0.5s ease 0s;
-	margin: 0;
-	padding: 0;
-	list-style: none;
 }
-
-.titre h3, .titre h4{
-margin: 0
+.titre h3, .titre h4 {
+    margin: 0;
 }
-
 body {
-background-color: black;
-color: #b1b1c8;
+    background-color: black;
+    color: #b1b1c8;
 }
-
 body, h2, h3, h4, h5 {
-margin:0;
-padding:0;
+    margin: 0;
+    padding: 0;
 }
-
 a:link {
     color: #fff;
-    font-weight: 400;
     text-decoration: none;
 }
 a:visited {
     color: #fff;
-    font-weight: 400;
     text-decoration: none;
 }
 a:hover {
     color: #ffe5b2;
-    font-weight: 400;
     text-decoration: none;
 }
-
 a:active {
     color: #fff;
-    font-weight: 400;
     text-decoration: none;
 }
-
 .conteneur {
-width: 100%;
-height: 605px;
-background-position: center top;
-background-repeat: no-repeat;
-position: relative;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 605px;
+    position: relative;
+    width: 100%;
 }
-
 .contenu {
-max-width: 950px;
-min-height:605px;
-overflow: hidden;
-margin: 0 auto;
-position: relative;
+    margin: 0 auto;
+    max-width: 970px;
+    min-height: 605px;
+    overflow: hidden;
+    position: relative;
 }
-
 .contenu > .titre {
-text-transform: uppercase;
-color: white;
-height: 78px;
-margin: 0;
-padding-left: 70px;
+    color: white;
+    height: 78px;
+    margin: 0;
+    padding-left: 70px;
+    text-transform: uppercase;
 }
-
 .titre h3 {
-display: table-cell;
-float: left;
-font-family: "Jockey One";
-font-size: 2.3em;
-font-weight: 300;
-line-height: 78px;
-margin-right: 20px;
-vertical-align: middle;
+    display: table-cell;
+    float: left;
+    font-family: "Jockey One";
+    font-size: 2.3em;
+    font-weight: 300;
+    line-height: 78px;
+    margin-right: 20px;
+    vertical-align: middle;
 }
-
 .titre h4 {
-vertical-align: middle;
-display: table-cell;
-height: 78px;
-font-family: "Open Sans";
-font-size: 1.1em;
-font-weight: 400;
+    display: table-cell;
+    font-family: "Open Sans";
+    font-size: 1.1em;
+    font-weight: 400;
+    height: 78px;
+    vertical-align: middle;
 }
-
-.titre > h3 > span{
-border-right: 1px solid #8bd4ff;
-padding-right: 20px;
+.titre > h3 > span {
+    border-right: 1px solid #8bd4ff;
+    padding-right: 20px;
 }
-
 .produit {
-width: 430px;
-height: 430px;
-position: absolute;
-top: 130px;
+    height: 430px;
+    position: absolute;
+    top: 130px;
+    width: 430px;
 }
-
-.contenuDroite  {
-margin: 100px 50px 50px 500px;
-width: 450px;
-overflow: hidden;
+.contenuDroite {
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 160px;
+    width: 460px;
 }
-
-.contenuDroite  h2{
-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-font-weight: 300;
-color: #fff;
-font-family: "Jockey One",sans-serif;
-text-transform: uppercase;
-font-size: 4em;
-line-height: 1em;
+.contenuDroite h2 {
+    color: #fff;
+    font-family: "Jockey One",sans-serif;
+    font-size: 4em;
+    font-weight: 300;
+    line-height: 1em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
 }
-
-.contenuDroite  h5{
-font-family: "Open Sans Condensed";
-font-size: 1.15em;
-font-weight: 700;
-line-height: 1.4em;
-margin: 2px 0 15px;
-text-transform: uppercase;
-color: #52c9ff;
-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+.contenuDroite h5 {
+    color: #52c9ff;
+    font-family: "Open Sans Condensed";
+    font-size: 1.15em;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin: 2px 0 15px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
 }
-
-.contenuDroite  p{
-font-size: 0.9em;
-line-height: 1.6em;
-color: #d5f4ff;
-text-shadow: 0 0 5px rgba(0, 45, 62, 0.8);
-font-family: "Open Sans";
+.contenuDroite p {
+    color: #d5f4ff;
+    font-family: "Open Sans";
+    font-size: 0.9em;
+    line-height: 1.6em;
+    text-shadow: 0 0 5px rgba(0, 45, 62, 0.8);
 }
-
 .bouton {
-color: #52c9ff;
-background-color: rgba(0, 0, 0, 0.3);
-border-radius: 5px;
-cursor: pointer;
-display: inline-block;
-font-size: 1em;
-font-weight: 600;
-line-height: 1em;
-padding: 10px 20px;
-position: relative;
-text-decoration: none;
-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
-text-transform: uppercase;
-font-family: "Open Sans";
-font-size: 0.938em;
-margin-right: 10px;
-}
-
-.conteneurColoris {
-position: relative;
-}
-
-.coloris {
-background-color: #122b41;
-position: absolute;
-left:30%;
-width:150px;
-text-align: center;
-border-radius: 5px 5px 0 0;
-height:16px;
-top:-36px;
-}
-
-.test{
-background-color: #122b41;
-display : none;
-}
-
-
-.coloris:hover  + .test {
-    display : block;
-}
-
-.test:hover {
-    display : block;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    color: #52c9ff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Open Sans";
+    font-size: 0.938em;
+    font-weight: 600;
+    line-height: 1em;
+    margin-right: 10px;
+    padding: 10px 20px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
 }
 
 .conteneurBouton {
-margin-top: 20px;
+    margin-top: 20px;
+    width: 470px;
 }
-
-
 .bouton > span {
-margin: 0 15px;
+    margin: 0 15px;
 }
-
 .slidePage {
-width: 450px;
-display: inline-block;
-position: relative;
+    float: left;
+    width: 460px;
 }
-
 .slide {
-width: 1500px;
+    height: 310px;
+    width: 1500px;
 }
-
-#header  .logo {
-    background: url("./img/obLogo.png") no-repeat;
+#header .logo {
+    background: url("./img/obLogo.png") no-repeat scroll center center rgba(0, 0, 0, 0);
     display: block;
     height: 65px;
     margin-left: 30px;
     width: 284px;
-	background-position: center center;
 }
-
 #header .logo a {
     display: block;
     height: 65px;
     overflow: hidden;
     text-indent: 110%;
     white-space: nowrap;
-}   
-
+}
 #header .headerBarreHaut {
     background: none repeat scroll 0 0 #142032;
     display: block;
@@ -224,49 +169,39 @@ width: 1500px;
     position: relative;
     width: 100%;
 }
-
-#header .headerConteneur{
+#header .headerConteneur {
     clear: both;
     display: block;
     margin: 0 auto;
     position: relative;
     width: 1000px;
 }
-
-
-
 #header .headerSlider {
     background-image: url("./img/ksb.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 776px;
     overflow: hidden;
     padding-top: 0;
     position: relative;
-    z-index: 1;
-    height: 776px;
-    background-position: center top;
-    background-repeat: no-repeat;
-	width: 100%;
+    width: 100%;
+    /*z-index: 1;*/
 }
-
 #header .headerConteneur .menu > ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
     position: absolute;
     right: 30px;
     top: 0;
-    margin: 0;
-    list-style: none outside none;
-    padding: 0;
 }
-
-
-
 #header .headerConteneur .menu > ul > li {
     display: block;
     float: left;
     height: 44px;
     position: relative;
 }
-
-
-#header .headerConteneur .menu > ul > li  {
+#header .headerConteneur .menu > ul > li {
     color: azure;
     display: block;
     font-family: "Open Sans Condensed";
@@ -276,4 +211,42 @@ width: 1500px;
     padding: 1px 20px 0;
     text-align: center;
     text-transform: uppercase;
+}
+.bpresentation {
+    display: none;
+}
+
+
+
+.fixed {
+    position: fixed !important;
+    top: 0 !important;
+}
+
+
+#subNav {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    font-family: "Open Sans Condensed";
+    font-size: 1.5em;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    top: 801px;
+    transition: none 0s ease 0s ;
+    width: 100%;
+    z-index: 8000;
+}
+#subNav li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+#subNav li:hover {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+}
+
+#subNav li a {
+	color: #fff;
+	text-transform: uppercase;
 }
