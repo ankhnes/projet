@@ -10,7 +10,7 @@ class Product_model extends CI_Model
             $idCategory,
             $idBrand;
     
-    public function createProduct($model, $reference, $description, $availability, $price, $specialPrice, $idCategory, $idBrand) {
+    public function create($model, $reference, $description, $availability, $price, $specialPrice, $idCategory, $idBrand) {
         
         $flag = false;
         if(isset($model) && !empty($model) && isset($reference) && !empty($reference) && isset($description) && !empty($description) && isset($availability) && !empty($availability) 
@@ -25,7 +25,7 @@ class Product_model extends CI_Model
             $this->idCategory = $idCategory;
             $this->idBrand = $idBrand;
             
-            $this->db->insert('Product', $this);
+            $this->db->insert('product', $this);
             
             if ($this->db->affected_rows() > 0)
             {
@@ -34,7 +34,7 @@ class Product_model extends CI_Model
             }
         }
         return $flag;
-    }
+    }   
     public function getProduct($idCategory){
         
         

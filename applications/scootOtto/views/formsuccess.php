@@ -1,7 +1,8 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Mike
- * Date: 14/10/2014
- * Time: 14:06
- */ 
+<html>
+    <head>
+        <title>Sucess!</title>
+    </head>
+    <body>
+        <p>Pouaa!!! Voilà les grosses données qu'on lui a mis à cette base !!</p>
+    </body>
+</html>
