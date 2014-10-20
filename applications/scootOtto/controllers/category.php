@@ -1,16 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Jérémy
- * Date: 12/10/2014
- * Time: 16:54
- */
 
-class Category_controller extends CI_Controller{
+class Category extends CI_Controller
+{
 
     public function getList()
     {
         $this->load->model('category_model');
-        $categories = o;
+        $categories = $this->category_model->getList();
+        $this->load->view('category/list', array('categories' => $categories));
     }
 }

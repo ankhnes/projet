@@ -39,6 +39,8 @@
 */
 
 $route['default_controller'] = "home";
+$route['category/list'] = 'category/getList';
+$route['brand/list'] = 'brand/getList';
 $route['404_override'] = '';
 
 
