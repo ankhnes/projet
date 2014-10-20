@@ -1,13 +1,29 @@
 .blue .titre > h3 > span {border-right: 1px solid #52c9ff}
-.blue .contenuDroite h5 {color: #52c9ff;}
+.blue .presentation h5 {color: #52c9ff;}
 .blue .bouton {color: #52c9ff;}
-.blue .contenuDroite p {color: #d5f4ff;}
-.blue a:hover {color: #B8E8FF;}
+.blue .presentation p {color: #d5f4ff;}
+.blue .bouton:hover {color: #B8E8FF;}
 
 
 
 .purple .titre > h3 > span {border-right: 1px solid #c56cd2}
-.purple .contenuDroite h5 {color: #c56cd2;}
+.purple .presentation h5 {color: #c56cd2;}
 .purple .bouton {color: #c56cd2;}
-.purple .contenuDroite p {color: #F6E3FB;}
-.purple a:hover {color: #D7A9F5;}
+.purple .presentation  p {color: #F6E3FB;}
+.purple .bouton:hover {color: #D7A9F5;}
+
+
+.coloris_noir {
+	background: none repeat scroll 0 0 black;
+	color: white;
+}
+
+.coloris_blanc {
+	background: none repeat scroll 0 0 white;
+	color: black;
+}
+
+.coloris_kaki {
+	background: none repeat scroll 0 0 #b4c68f;
+	color: #495039;
+}

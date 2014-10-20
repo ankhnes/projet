@@ -4,11 +4,11 @@ $( "#tabs, #tabs2" ).tabs();
 
 $(function() {    
     $('.bfichetechnique').click(function() {      
-        $(this).closest('.contenuDroite').find('.galley').hide();        
+        $(this).closest('.contenuDroite').find('.coloris').hide();        
         $(this).closest('.contenuDroite').find('.presentation').hide();
         $(this).closest('.contenuDroite').find('.fichetechnique').show();
         
-        $(this).siblings('.bgallery').css('display', 'inline-block');  
+        $(this).siblings('.bcoloris').css('display', 'inline-block');  
         $(this).siblings('.bpresentation').css('display', 'inline-block');  
         $(this).hide();         
         e.preventDefault();  
@@ -16,8 +16,8 @@ $(function() {
 });
     
 $(function() {    
-    $('.bgallery').click(function() {
-        $(this).closest('.contenuDroite').find('.galley').show();        
+    $('.bcoloris').click(function() {
+        $(this).closest('.contenuDroite').find('.coloris').show();        
         $(this).closest('.contenuDroite').find('.presentation').hide();
         $(this).closest('.contenuDroite').find('.fichetechnique').hide();
         
@@ -30,11 +30,11 @@ $(function() {
     
 $(function() {    
     $('.bpresentation').click(function() {
-        $(this).closest('.contenuDroite').find('.galley').hide();        
+        $(this).closest('.contenuDroite').find('.coloris').hide();        
         $(this).closest('.contenuDroite').find('.presentation').show();
         $(this).closest('.contenuDroite').find('.fichetechnique').hide();
         
-        $(this).siblings('.bgallery').css('display', 'inline-block');  
+        $(this).siblings('.bcoloris').css('display', 'inline-block');  
         $(this).hide();    
         $(this).siblings('.bfichetechnique').css('display', 'inline-block');  
         e.preventDefault();        
