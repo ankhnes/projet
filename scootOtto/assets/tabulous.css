@@ -62,7 +62,6 @@ ul.navTab li {
 
 .tabs  li.ui-tabs-active {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.15);
-    padding-bottom: 2px;
 }
 li.ui-tabs-active a {
 }

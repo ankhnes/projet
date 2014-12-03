@@ -153,7 +153,7 @@ a:active {
 .product-text {
     overflow: hidden;
     position: absolute;
-    right: 0;
+    right: 25px;
     top: 160px;
     width: 460px;
 }
@@ -211,6 +211,8 @@ a:active {
     text-decoration: none;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
     text-transform: uppercase;
+	min-width: 182px;
+	text-align: center;
 }
 .button-container .button > span {
     margin: 0 15px;
