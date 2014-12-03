@@ -5,7 +5,7 @@
     padding: 0;
     transition: all 0.5s ease 0s;
 }
-.titre h3, .titre h4 {
+.title h3, .title h4 {
     margin: 0;
 }
 body {
@@ -32,28 +32,97 @@ a:active {
     color: #fff;
     text-decoration: none;
 }
-.conteneur {
+
+#header #logo {
+    background: url("./img/obLogo.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    display: block;
+    height: 65px;
+    margin-left: 30px;
+    width: 284px;
+}
+#header #logo a {
+    display: block;
+    height: 65px;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+}
+#header #nav-bar {
+    background: none repeat scroll 0 0 #142032;
+    display: block;
+    height: 65px;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+#header #nav {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+}
+#header #slider {
+    background-image: url("./img/ksb.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 776px;
+    overflow: hidden;
+    padding-top: 0;
+    position: relative;
+    width: 100%;
+    /*z-index: 1;*/
+}
+#header #nav #menu > ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+#header #nav #menu > ul > li {
+    display: block;
+    float: left;
+    height: 44px;
+    position: relative;
+}
+#header #nav #menu > ul > li {
+    color: azure;
+    display: block;
+    font-family: "Open Sans Condensed";
+    font-size: 1em;
+    height: 65px;
+    line-height: 65px;
+    padding: 1px 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container-product {
     background-position: center top;
     background-repeat: no-repeat;
     height: 605px;
     position: relative;
     width: 100%;
 }
-.contenu {
+.container-center {
+    margin: 0 auto;
+}
+.container-product .container-center {
     margin: 0 auto;
     max-width: 970px;
     min-height: 605px;
     overflow: hidden;
     position: relative;
 }
-.contenu > .titre {
+.container-product .container-center > .title {
     color: white;
     height: 78px;
     margin: 0;
     padding-left: 70px;
     text-transform: uppercase;
 }
-.titre h3 {
+.title h3 {
     display: table-cell;
     float: left;
     font-family: "Jockey One";
@@ -63,7 +132,7 @@ a:active {
     margin-right: 20px;
     vertical-align: middle;
 }
-.titre h4 {
+.title h4 {
     display: table-cell;
     font-family: "Open Sans";
     font-size: 1.1em;
@@ -71,24 +140,32 @@ a:active {
     height: 78px;
     vertical-align: middle;
 }
-.titre > h3 > span {
+.title > h3 > span {
     border-right: 1px solid #8bd4ff;
     padding-right: 20px;
 }
-.produit {
+.product-img {
     height: 430px;
     position: absolute;
     top: 130px;
     width: 430px;
 }
-.contenuDroite {
+.product-text {
     overflow: hidden;
     position: absolute;
     right: 0;
     top: 160px;
     width: 460px;
 }
-.contenuDroite .presentation h2 {
+.product-text .tab-content {
+    float: left;
+    width: 460px;
+}
+.product-text .tab-container {
+    height: 310px;
+    width: 1500px;
+}
+.product-text .summary h2 {
     color: #fff;
     font-family: "Jockey One",sans-serif;
     font-size: 4em;
@@ -97,7 +174,7 @@ a:active {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
 }
-.contenuDroite .presentation h5 {
+.product-text .summary h5 {
     color: #52c9ff;
     font-family: "Open Sans Condensed";
     font-size: 1.15em;
@@ -107,14 +184,18 @@ a:active {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     text-transform: uppercase;
 }
-.contenuDroite .presentation p {
+.product-text .summary p {
     color: #d5f4ff;
     font-family: "Open Sans";
     font-size: 0.9em;
     line-height: 1.6em;
     text-shadow: 0 0 5px rgba(0, 45, 62, 0.8);
 }
-.bouton {
+.button-container {
+    margin-top: 20px;
+    width: 470px;
+}
+.button-container .button {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     color: #52c9ff;
@@ -131,99 +212,32 @@ a:active {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
     text-transform: uppercase;
 }
-
-.conteneurBouton {
-    margin-top: 20px;
-    width: 470px;
-}
-.bouton > span {
+.button-container .button > span {
     margin: 0 15px;
 }
-.slidePage {
-    float: left;
-    width: 460px;
-}
-.slide {
-    height: 310px;
-    width: 1500px;
-}
-#header .logo {
-    background: url("./img/obLogo.png") no-repeat scroll center center rgba(0, 0, 0, 0);
-    display: block;
-    height: 65px;
-    margin-left: 30px;
-    width: 284px;
-}
-#header .logo a {
-    display: block;
-    height: 65px;
-    overflow: hidden;
-    text-indent: 110%;
-    white-space: nowrap;
-}
-#header .headerBarreHaut {
-    background: none repeat scroll 0 0 #142032;
-    display: block;
-    height: 65px;
-    margin: 0;
-    position: relative;
-    width: 100%;
-}
-#header .headerConteneur {
-    clear: both;
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    width: 1000px;
-}
-#header .headerSlider {
-    background-image: url("./img/ksb.jpg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    height: 776px;
-    overflow: hidden;
-    padding-top: 0;
-    position: relative;
-    width: 100%;
-    /*z-index: 1;*/
-}
-#header .headerConteneur .menu > ul {
-    list-style: none outside none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    right: 30px;
-    top: 0;
-}
-#header .headerConteneur .menu > ul > li {
-    display: block;
-    float: left;
-    height: 44px;
-    position: relative;
-}
-#header .headerConteneur .menu > ul > li {
-    color: azure;
-    display: block;
-    font-family: "Open Sans Condensed";
-    font-size: 1em;
-    height: 65px;
-    line-height: 65px;
-    padding: 1px 20px 0;
-    text-align: center;
-    text-transform: uppercase;
-}
-.bpresentation {
+
+.button-container .button-summary {
     display: none;
 }
-
-
+.product-text .color > div {
+    font-family: "Open Sans";
+    font-size: 0.938em;
+    font-weight: 600;
+    line-height: 1em;
+    border-radius: 5px;
+    display: block;
+    padding: 10px 20px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.product-text .color > div > span {
+	margin-left: 20px;
+}
 
 .fixed {
     position: fixed !important;
     top: 0 !important;
 }
-
-
 #subNav {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
     font-family: "Open Sans Condensed";
@@ -241,28 +255,10 @@ a:active {
 	display: inline-block;
 	padding: 0px 20px;
 }
-
 #subNav li:hover {
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
 }
-
 #subNav li a {
 	color: #fff;
 	text-transform: uppercase;
-}
-
-.coloris > div {
-    font-family: "Open Sans";
-    font-size: 0.938em;
-    font-weight: 600;
-    line-height: 1em;
-    border-radius: 5px;
-    display: block;
-    padding: 10px 20px;
-	text-transform: uppercase;
-	margin-bottom: 20px;
-}
-
-.coloris > div > span {
-	margin-left: 20px;
 }

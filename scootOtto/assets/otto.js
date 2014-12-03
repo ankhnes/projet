@@ -1,43 +1,43 @@
 $(function() {
 
-$( "#tabs, #tabs2" ).tabs();
+$( ".tabs" ).tabs();
 
 $(function() {    
-    $('.bfichetechnique').click(function() {      
-        $(this).closest('.contenuDroite').find('.coloris').hide();        
-        $(this).closest('.contenuDroite').find('.presentation').hide();
-        $(this).closest('.contenuDroite').find('.fichetechnique').show();
+    $('.button-datasheet').click(function() {      
+        $(this).closest('.product-text').find('.color').hide();        
+        $(this).closest('.product-text').find('.summary').hide();
+        $(this).closest('.product-text').find('.datasheet').show();
         
-        $(this).siblings('.bcoloris').css('display', 'inline-block');  
-        $(this).siblings('.bpresentation').css('display', 'inline-block');  
+        $(this).siblings('.button-color').css('display', 'inline-block');  
+        $(this).siblings('.button-summary').css('display', 'inline-block');  
         $(this).hide();         
-        e.preventDefault();  
+
     });
 });
     
 $(function() {    
-    $('.bcoloris').click(function() {
-        $(this).closest('.contenuDroite').find('.coloris').show();        
-        $(this).closest('.contenuDroite').find('.presentation').hide();
-        $(this).closest('.contenuDroite').find('.fichetechnique').hide();
+    $('.button-color').click(function() {
+        $(this).closest('.product-text').find('.color').show();        
+        $(this).closest('.product-text').find('.summary').hide();
+        $(this).closest('.product-text').find('.datasheet').hide();
         
         $(this).hide();    
-        $(this).siblings('.bpresentation').css('display', 'inline-block');   
-        $(this).siblings('.bfichetechnique').css('display', 'inline-block');    
-        e.preventDefault();  
+        $(this).siblings('.button-summary').css('display', 'inline-block');   
+        $(this).siblings('.button-datasheet').css('display', 'inline-block');    
+
     });
 });
     
 $(function() {    
-    $('.bpresentation').click(function() {
-        $(this).closest('.contenuDroite').find('.coloris').hide();        
-        $(this).closest('.contenuDroite').find('.presentation').show();
-        $(this).closest('.contenuDroite').find('.fichetechnique').hide();
+    $('.button-summary').click(function() {
+        $(this).closest('.product-text').find('.color').hide();        
+        $(this).closest('.product-text').find('.summary').show();
+        $(this).closest('.product-text').find('.datasheet').hide();
         
-        $(this).siblings('.bcoloris').css('display', 'inline-block');  
+        $(this).siblings('.button-color').css('display', 'inline-block');  
         $(this).hide();    
-        $(this).siblings('.bfichetechnique').css('display', 'inline-block');  
-        e.preventDefault();        
+        $(this).siblings('.button-datasheet').css('display', 'inline-block');  
+   
     });
 });
 
@@ -50,6 +50,12 @@ $(function() {
              else {
                  $('#subNav').removeClass('fixed');
              }
+        });
+    });
+	
+$(function() {  
+		$('.coloris_noir').click(function() {
+			$(this).closest('.container-product').find('.product-img').attr('src','./img/produit/streetzone_noir.png');
         });
     });
 

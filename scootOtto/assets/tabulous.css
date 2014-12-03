@@ -1,17 +1,17 @@
 table {
     border-collapse: collapse;
     border-spacing: 0;
-    color: #000;
+    clear: both;
+    color: #d5f4ff;
     font-family: "Open Sans";
     font-size: 0.8em;
-	clear: both;
-	width: 100%;
+    width: 100%;
 }
 table tr:nth-child(2n+1) {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0.15);
 }
 table tr:nth-child(2n) {
-    background-color: rgba(240, 240, 240, 1);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 table tr * {
 }
@@ -23,7 +23,7 @@ table td {
     padding: 10px 20px;
     text-align: left;
     vertical-align: middle;
-	width: 50%;
+    width: 50%;
 }
 table th {
     color: #8bd4ff;
@@ -32,37 +32,26 @@ table th {
     text-align: left;
     text-transform: uppercase;
 }
-
-ul.navTab{
-
-    display: box;
-	width: 100%;
+ul.navTab {
+    width: 100%;
 }
-
-ul.navTab li{
-
-    box-flex: 1;
+ul.navTab li {
 }
-
-#tabs, #tabs2, #tabs3, #tabs4, #tabs5 {
+.tabs {
     margin: 0 auto 40px;
 }
-
-ul.navTab li:last-child { 
+ul.navTab li:last-child {
     margin-right: 0;
 }
-
 ul.navTab li {
     float: left;
     margin-right: 2px;
 }
-
-#tabs li , #tabs2 li , #tabs3 li , #tabs4 li , #tabs5 li  {
-    background-color: rgba(255, 255, 255, 0.3);
-	margin-bottom: 2px;
-	}
-	
-#tabs li a, #tabs2 li a, #tabs3 li a, #tabs4 li a, #tabs5 li a {
+.tabs  li {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 0;
+}
+.tabs  li a {
     color: #fff;
     display: block;
     font-family: "Open Sans Condensed";
@@ -70,23 +59,58 @@ ul.navTab li {
     text-decoration: none;
     text-transform: uppercase;
 }
-#tabs li a:hover, #tabs2 li a:hover, #tabs3 li a:hover, #tabs4 li a:hover, #tabs5 li a:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-}
 
-li.ui-tabs-active  {
-	background: none repeat scroll 0 0 white !important;
+.tabs  li.ui-tabs-active {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.15);
+    padding-bottom: 2px;
 }
-
 li.ui-tabs-active a {
-	color: #000 !important;
 }
-
-#tabs_container {
+.tab_container {
+    background-color: rgba(255, 255, 255, 1);
     overflow: hidden;
     position: relative;
-	background-color: rgba(255, 255, 255, 1);
 }
-#tabs_container div {
-	width: 100%;
+.tab_container div {
+    width: 100%;
+}
+
+.fichetechnique .ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active {
+    background-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+
+
+.tabs 
+{
+    	border-radius: 0 0 5px 5px;
+	overflow: hidden;
+}
+
+.tabs ul.navTab > li { 
+    	border-radius: 5px 5px 0 0;
+}
+
+
+.tabs ul.navTab > li:nth-child(1) {
+	width: 100px;
+}
+
+
+.tabs ul.navTab > li:nth-child(2) {
+	width: 100px;
+}
+
+
+.tabs ul.navTab > li:nth-child(3) {
+	width: 127px;
+}
+
+
+.tabs ul.navTab > li:nth-child(4) {
+	width: 127px;
+}
+
+.tabs ul.navTab > li > a{
+	text-align: center;
 }
