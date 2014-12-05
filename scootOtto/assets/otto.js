@@ -57,6 +57,9 @@ $(function() {
 		$('.coloris_noir').click(function() {
 			$(this).closest('.container-product').find('.product-img').attr('src','./img/produit/streetzone_noir.png');
         });
+		$('.coloris_blanc').click(function() {
+			$(this).closest('.container-product').find('.product-img').attr('src','./img/produit/streetzone_blanc.png');
+        });
     });
 
 

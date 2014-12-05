@@ -1,7 +1,7 @@
 .blue .title > h3 > span {border-right: 1px solid #52c9ff}
 .blue .summary h5 {color: #52c9ff;}
 .blue .button {color: #52c9ff;}
-.blue .summary p,.blue table  {color: #d5f4ff;}
+.blue .summary p,.blue table{color: #d5f4ff;}
 .blue .button:hover {color: #B8E8FF;}
 
 
@@ -9,21 +9,6 @@
 .purple .title > h3 > span {border-right: 1px solid #c56cd2}
 .purple .summary h5 {color: #c56cd2;}
 .purple .button {color: #c56cd2;}
-.purple .summary  p,.purple table {color: #F6E3FB;}
+.purple .summary  p,.purple table{color: #F6E3FB;}
 .purple .button:hover {color: #D7A9F5;}
 
-
-.coloris_noir {
-	background: none repeat scroll 0 0 black;
-	color: white;
-}
-
-.coloris_blanc {
-	background: none repeat scroll 0 0 white;
-	color: black;
-}
-
-.coloris_kaki {
-	background: none repeat scroll 0 0 #b4c68f;
-	color: #495039;
-}
