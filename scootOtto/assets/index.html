@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="colors.css">
   <link rel="stylesheet" href="tabulous.css">
+  <link rel="stylesheet" href="coloris.css">
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href=
   "http://fonts.googleapis.com/css?family=Jockey+One|Open+Sans:300,300italic,400,400italic,600,700|Open+Sans+Condensed:700|Cabin+Sketch:400,700"
@@ -49,7 +50,14 @@
         </div>
       </div>
 
-      <div id="slider"></div>
+<div class="banner">
+    <ul>
+        <li style="background-image: url('./img/django11.jpg')">This is a slide.</li>
+        <li style="background-image: url('./img/django12.jpg')">This is another slide.</li>
+    </ul>
+</div>
+
+
     </div>
 
     <div id="content">
@@ -237,14 +245,15 @@
 
                 <li class="color tab-content">
                   <ul>
-				   <li class="coloris_noir">    <a>NOIR</a>		</li>
-                   <li class="coloris_blanc">   <a>BLANC</a>	</li>
-                   <li class="coloris_kaki">    <a>KAKI</a>		</li>				   
-				   <li class="coloris_noir">    <a>NOIR</a>		</li>
-                   <li class="coloris_blanc">   <a>BLANC</a>	</li>
-                   <li class="coloris_kaki">    <a>KAKI</a>		</li>
-				   <li class="coloris_kaki">    <a>KAKI</a>		</li>				   
-				   <li class="coloris_noir">    <a>NOIR</a>		</li>
+				   <div class="button_color color_noir">    	<a class="color_name">NOIR</a>	</div>
+                   <div class="button_color color_blanc">   	<a class="color_name">BLANC</a>		</div>
+                   <div class="button_color color_kaki">    	<a class="color_name">KAKI</a>		</div>				   
+				   <div class="button_color color_marron">	<a class="color_name">MARRON</a>		</div>
+                   <div class="button_color color_rose">		<a class="color_name">ROSE</a>		</div>
+                   <div class="button_color color_bordeaux">	<a class="color_name">BORDEAUX</a>		</div>
+				   <div class="button_color color_nymphea">	<a class="color_name">NYMPHEA</a>		</div>				   
+				   <div class="button_color color_rs">		<a class="color_name">RS</a>		</div>					
+				
 				  </ul>
                 </li>
               </ul>
@@ -443,14 +452,14 @@
 
                 <li class="color tab-content">
                   <ul>
-				   <li class="coloris_noir">    <a>NOIR</a>		</li>
-                   <li class="coloris_blanc">   <a>BLANC</a>	</li>
-                   <li class="coloris_kaki">    <a>KAKI</a>		</li>				   
-				   <li class="coloris_noir">    <a>NOIR</a>		</li>
-                   <li class="coloris_blanc">   <a>BLANC</a>	</li>
-                   <li class="coloris_kaki">    <a>KAKI</a>		</li>
-				   <li class="coloris_kaki">    <a>KAKI</a>		</li>				   
-				   <li class="coloris_noir">    <a>NOIR</a>		</li>
+				   <li class="button_color color_noir">    <a class="color_name">NOIR</a>		</li>
+                   <li class="button_color color_blanc">   <a class="color_name">BLANC</a>		</li>
+                   <li class="button_color color_kaki">    <a class="color_name">KAKI</a>		</li>				   
+				   <li class="button_color color_noir">    <a class="color_name">NOIR</a>		</li>
+                   <li class="button_color color_blanc">   <a class="color_name">BLANC</a>		</li>
+                   <li class="button_color color_kaki">    <a class="color_name">KAKI</a>		</li>
+				   <li class="button_color color_kaki">    <a class="color_name">KAKI</a>		</li>				   
+				   <li class="button_color color_noir">    <a class="color_name">NOIR</a>		</li>
 				  </ul>
                 </li>
               </ul>
@@ -465,10 +474,249 @@
           </div>
         </div>
       </div><!--FIN SECTION PRODUIT-->
+	  
+	        <!--SECTION PRODUIT-->
+
+      <div class="container-product green" style="background-image: url(./img/fond/bgVert11.jpg);">
+        <div class="container-center">
+          <div class="title">
+            <h3><span>Peugeot Streetzone</span></h3>
+
+            <h4>1599 €</h4>
+          </div><img class="product-img" src="./img/produit/streetzone_blanc.png">
+
+          <div class="product-text">
+            <div class="tab-container">
+              <ul>
+                <li class="summary tab-content">
+                  <h2 class="title">100% STREET</h2>
+
+                  <h5>Streetzone, le scooter enervé !</h5>
+
+                  <p>Guidon « naked » avec potance apparente, rétroviseurs sports, regard acéré grâce aux optiques enfermées
+                  dans une grille noire mate. Son look séduira les riders urbains.<br>
+                  Sportif, léger, agile grâce à son empattement de 1256 mm, il se faufile avec aisance dans la jungle
+                  urbaine.</p>
+                </li>
+
+                <li class="datasheet tab-content">
+                  <div class="tabs">
+                    <ul class="navTab">
+                      <li>
+                        <a href="#tabs-1">Moteur</a>
+                      </li>
+
+                      <li>
+                        <a href="#tabs-2">Cycle</a>
+                      </li>
+
+                      <li>
+                        <a href="#tabs-3">Dimensions</a>
+                      </li>
+
+                      <li>
+                        <a href="#tabs-4">Equipements</a>
+                      </li>
+                    </ul>
+
+                    <div id="tabs-1">
+                      <table>
+                        <tr>
+                          <td>Moteur</td>
+
+                          <td>Monocylindre 2T</td>
+                        </tr>
+
+                        <tr>
+                          <td>Cylindrée</td>
+
+                          <td>49 cm3</td>
+                        </tr>
+
+                        <tr>
+                          <td>Refroidissement</td>
+
+                          <td>Air</td>
+                        </tr>
+
+                        <tr>
+                          <td>Réservoir essence (litres)</td>
+
+                          <td>6.5</td>
+                        </tr>
+                      </table>
+                    </div>
+
+                    <div id="tabs-2">
+                      <table>
+                        <tr>
+                          <td>Frein avant</td>
+
+                          <td>Disque ø 190 mm</td>
+                        </tr>
+
+                        <tr>
+                          <td>Frein arriere</td>
+
+                          <td>Tambour ø 110 mm</td>
+                        </tr>
+
+                        <tr>
+                          <td>Pneu avant</td>
+
+                          <td>120/90-12</td>
+                        </tr>
+
+                        <tr>
+                          <td>Pneu arrière</td>
+
+                          <td>130/90-12</td>
+                        </tr>
+
+                        <tr>
+                          <td>Suspension avant</td>
+
+                          <td>Fourche hydraulique inversé</td>
+                        </tr>
+
+                        <tr>
+                          <td>Suspension arrière</td>
+
+                          <td>Fourche hydraulique</td>
+                        </tr>
+                      </table>
+                    </div>
+
+                    <div id="tabs-3">
+                      <table>
+                        <tr>
+                          <td>Longueur (mm)</td>
+
+                          <td>1854</td>
+                        </tr>
+
+                        <tr>
+                          <td>Largeur au guidon (mm)</td>
+
+                          <td>664</td>
+                        </tr>
+
+                        <tr>
+                          <td>Hauteur (mm)</td>
+
+                          <td>1166</td>
+                        </tr>
+
+                        <tr>
+                          <td>Empattement (mm)</td>
+
+                          <td>1256</td>
+                        </tr>
+
+                        <tr>
+                          <td>Poids à sec (kg)</td>
+
+                          <td>87</td>
+                        </tr>
+
+                        <tr>
+                          <td>Hauteur de selle (mm)</td>
+
+                          <td>770</td>
+                        </tr>
+                      </table>
+                    </div>
+
+                    <div id="tabs-4">
+                      <table>
+                        <tr>
+                          <td>Tableau de bord</td>
+
+                          <td>Digital</td>
+                        </tr>
+
+                        <tr>
+                          <td>Rengement</td>
+
+                          <td>Coffre sous selle pour un casque intégral</td>
+                        </tr>
+
+                        <tr>
+                          <td>Garantie</td>
+
+                          <td>2 ans pièces et main d&#39;oeuvre</td>
+                        </tr>
+
+                        <tr>
+                          <td>Assistance</td>
+
+                          <td>En option</td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="color tab-content">
+                  <ul>
+				   <li class="button_color color_noir">    <a class="color_name">NOIR</a>		</li>
+                   <li class="button_color color_blanc">   <a class="color_name">BLANC</a>		</li>
+                   <li class="button_color color_kaki">    <a class="color_name">KAKI</a>		</li>				   
+				   <li class="button_color color_noir">    <a class="color_name">NOIR</a>		</li>
+                   <li class="button_color color_blanc">   <a class="color_name">BLANC</a>		</li>
+                   <li class="button_color color_kaki">    <a class="color_name">KAKI</a>		</li>
+				   <li class="button_color color_kaki">    <a class="color_name">KAKI</a>		</li>				   
+				   <li class="button_color color_noir">    <a class="color_name">NOIR</a>		</li>
+				  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <div class="button-container">
+              <a class="button button-color"><i class="fa fa-paint-brush"></i><span>Coloris</span><i class=
+              "fa fa-angle-double-right"></i></a> <a class="button button-datasheet"><i class="fa fa-file-text-o"></i><span>Fiche
+              technique</span><i class="fa fa-angle-double-right"></i></a> <a class="button button-summary"><i class=
+              "fa fa-picture-o"></i><span>Presentation</span><i class="fa fa-angle-double-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div><!--FIN SECTION PRODUIT-->
+	  
+	  
+	  
+	  
     </div>
-  </div><script src="http://code.jquery.com/jquery-1.10.2.js">
-</script> <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js">
-</script> <script src="otto.js">
-</script>
+	    <div id="footer">
+		    <ul>
+				<li>Silkolene</li><li>Ipone</li><li>Peugeot</li><li>TNT</li><li>France Antivol</li>	
+				<li>Chaft</li><li>Momodesign</li><li>Kappa</li><li>IXS</li><li>Michelin</li>
+				<li>Pirelli</li><li>Hutchinson</li><li>Sava</li><li>Sito</li><li>Tecnigas</li>
+				<li>Doppler</li>
+				
+			</ul>
+			
+			<ul>
+				<li>Kisbee 2 temps</li><li>Kisbee 4 temps</li><li>Kisbee 100</li><li>Streetzone</li><li>Tweet</li>	
+				<li>Citystar</li><li>Vivacity 2 temps</li><li>Vivacity 4 temps</li><li>I		XS</li><li>Michelin</li>
+				<li>Pirelli</li><li>Hutchinson</li><li>Sava</li><li>Sito</li><li>Tecnigas</li>
+				<li>Doppler</li>
+				
+			</ul>
+		
+		</div>
+  </div>
+  
+ <script src="http://code.jquery.com/jquery-1.11.2.min.js"> </script>
+
+<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script> 
+<script src="otto.js"></script>
+
+<script src="http://unslider.com/unslider.min.js"></script>
+<script>
+$(function() {
+    $('.banner').unslider();
+});</script>
+
+
 </body>
 </html>

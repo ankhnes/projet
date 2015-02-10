@@ -53,13 +53,18 @@ $(function() {
         });
     });
 	
-$(function() {  
-		$('.coloris_noir').click(function() {
+$(function() { 
+		$('.color_noir').click(function() {	
 			$(this).closest('.container-product').find('.product-img').attr('src','./img/produit/streetzone_noir.png');
         });
-		$('.coloris_blanc').click(function() {
+		$('.color_blanc').click(function() {
 			$(this).closest('.container-product').find('.product-img').attr('src','./img/produit/streetzone_blanc.png');
-        });
+			});
+			
+		$('.color ul li').click(function() {
+			$('.color ul li').removeClass('active');
+			$(this).addClass('active');
+			});
     });
 
 

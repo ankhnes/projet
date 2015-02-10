@@ -3,7 +3,7 @@
     list-style: none outside none;
     margin: 0;
     padding: 0;
-    transition: all 0.5s ease 0s;
+/*     transition: all 0.5s ease 0s; */
 }
 .title h3, .title h4 {
     margin: 0;
@@ -268,43 +268,6 @@ a:active {
 	text-transform: uppercase;
 }
 
-.color.tab-content li {
-    display: inline-block;
-	border-radius: 5px;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 50%, black 50%) repeat scroll left -5px / 100% 200% rgba(0, 0, 0, 0);
-    height: 70px;
-    margin-bottom: 24px;
-    position: relative;
-    width: 140px;
-	margin: 0 10px 10px 0;
-	text-align: center;
-    font-size: 0.938em;
-    font-weight: 600;
-	line-height: 70px;
-	font-family: "Open Sans";
-	cursor: pointer;
-	color: #fff;
-}
-
-
-.color.tab-content li.coloris_noir{
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 50%, #000 50%) repeat scroll left -5px / 100% 200% rgba(0, 0, 0, 0);
-}
-
-.color.tab-content li.coloris_blanc{
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 50%, #fff 50%) repeat scroll left -5px / 100% 200% rgba(0, 0, 0, 0);
-}
-
-.color.tab-content li.coloris_kaki{
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 50%, #9ebe7c 50%) repeat scroll left -5px / 100% 200% rgba(0, 0, 0, 0);
-}
-
-.color.tab-content li.coloris_noir a:hover,
-.color.tab-content li.coloris_blanc a:hover,
-.color.tab-content li.coloris_kaki a:hover{
-	color: inherit;
-} 
-
-.color.tab-content li:hover {
-    background-position:left -15px;
-}
+.banner { position: relative; overflow: auto; }
+    .banner li { list-style: none; }
+        .banner ul li { float: left; min-height: 776px; background-position:center top;}

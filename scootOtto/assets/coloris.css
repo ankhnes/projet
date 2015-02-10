@@ -1,0 +1,87 @@
+.button_color {
+    display: inline-block;
+	border-radius: 5px;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 50%, black 50%) repeat scroll left -5px / 100% 200% rgba(0, 0, 0, 0);
+    height: 70px;
+    margin-bottom: 24px;
+    width: 140px;
+	margin: 0 10px 10px 0;
+	text-align: center;
+    font-size: 0.938em;
+    font-weight: 600;
+	font-family: "Open Sans";
+	cursor: pointer;
+	color: #fff;
+	line-height: 70px;
+	overflow: hidden;
+}
+
+.button_color a{
+  text-align: center;
+  display:block;
+}
+
+.button_color, .color_name{
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;     
+}
+
+
+.button_color{
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
+
+
+.color_name{
+	margin-top: 0em;
+}
+
+.button_color:hover > a, .color .active > a {
+	margin-top: -1em;
+}
+
+
+.color .color_name:hover{
+	color: inherit;
+} 
+
+.color .button_color:hover, .color .button_color.active {
+    background-position: left -25px !important;
+}
+
+.color .color_noir{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 50%, #000 50%) repeat scroll left -10px / 100% 200% rgba(0, 0, 0, 0);
+}
+
+.color .color_blanc{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 50%, #fff 50%) repeat scroll left -10px / 100% 200% rgba(0, 0, 0, 0);
+}
+
+.color .color_kaki{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 50%, #9ebe7c 50%) repeat scroll left -10px / 100% 200% rgba(0, 0, 0, 0);
+}
+
+.color .color_bordeaux{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 50%, #8C0002 50%) repeat scroll left -10px / 100% 200% rgba(0, 0, 0, 0);
+}
+
+.color .color_nymphea{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 50%, #D0B5FF 50%) repeat scroll left -10px / 100% 200% rgba(0, 0, 0, 0);
+}
+
+.color .color_rose{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 50%, #FF91E9 50%) repeat scroll left -10px / 100% 200% rgba(0, 0, 0, 0);
+}
+
+.color .color_marron{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 50%, #68420A 50%) repeat scroll left -10px / 100% 200% rgba(0, 0, 0, 0);
+}
+
+.color .color_rs{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 50%, #F98900 50%, #F98900 52%, #181818 52%) repeat scroll left -10px / 100% 200% rgba(0, 0, 0, 0);
+}

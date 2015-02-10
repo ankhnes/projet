@@ -6,9 +6,15 @@
 
 
 
-.purple .title > h3 > span {border-right: 1px solid #c56cd2}
-.purple .summary h5 {color: #c56cd2;}
-.purple .button {color: #c56cd2;}
+.purple .title > h3 > span {border-right: 1px solid #ab6de2}
+.purple .summary h5 {color: #ab6de2;}
+.purple .button {color: #ab6de2;}
 .purple .summary  p,.purple table{color: #F6E3FB;}
 .purple .button:hover {color: #D7A9F5;}
 
+
+.green .title > h3 > span {border-right: 1px solid #80ea3f}
+.green .summary h5 {color: #80ea3f;}
+.green .button {color: #80ea3f;}
+.green .summary  p,.green table{color: #dbf7ca;}
+.green .button:hover {color: #d0ffb3;}
