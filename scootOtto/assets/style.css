@@ -273,7 +273,7 @@ a:active {
 
 .banner { position: relative; overflow: auto; }
     .banner li { list-style: none; }
-        .banner ul li { float: left; min-height: 776px; background-position:center top;}
+        .banner ul li { float: left; min-height: 550px; background-position:center top;}
 		
 .dots {
     display: block;
